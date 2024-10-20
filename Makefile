@@ -15,8 +15,7 @@ CFLAGS = -O0 -S
 SRC = my_job.c
 TARGET = my_job.ll
 
-all:
-	echo "There's no target ALL"
+all: $(TARGET)
 
 # Rule to compile
 $(TARGET): $(SRC)
